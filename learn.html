@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learning HTML with WGU</title> <!--Not needed when making an HTML page-->
+<!--INLINE STYLE-->
+<style>
+table, th, td {
+                border: 1px solid black;
+}
+</style>
+</head>
+
+<body>
+
+<!--PARAGRAPHS AND LINE BREAKS-->    
+<!--p = paragraph, br = line break-->    
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+    Nostrum unde est fugiat nobis corrupti, natus illo atque<br>
+    perferendis repellat nisi placeat error maiores laudantium<br>
+    nihil praesentium cupiditate deleniti id rerum.
+</p>
+
+<p>The White House<br>
+1600 Pennsylvania Ave Northwest<br>
+Washington, DC 20500</p>
+
+<!--HEADERS AND TAGS-->
+<!--h = heading, larger number (up to 6) = smaller font-->
+<h1 id="H1">This is <em>heading</em></h1><!--em = emphasis-->
+
+<h2>This is <strong>heading</strong></h2><!--strong = bold-->
+
+<h3>This is <mark>heading</mark></h3><!--mark = highlight-->
+
+<h4>This is <u>heading</u></h4><!--u = underline-->
+
+<h5>This is heading</h5>
+<h6>This is heading</h6>
+
+<!--This is a comment in HTML-->
+
+<!--LISTS-->
+<ul> <!--Unordered List - Default-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ul>
+
+<ul type="circle"> <!--Unordered List - Circle-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ul>
+
+<ul type="square"> <!--Unordered List - Square-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ul>
+
+<ol> <!--Ordered List - Default-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ol>
+
+<ol start="50"> <!--Ordered List - Changing starting value-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ol>
+
+<ol type="A"> <!--Ordered List - Alphabet uppercase/lowercase-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ol>
+
+<ol type="I"> <!--Ordered List - Roman Numerals uppercase/lowercase-->
+    <li>Mario</li>
+    <li>Luigi</li>
+    <li>Toadstoll</li>
+</ol>
+
+<ol> <!--Nested List - Default, can be ordered or unordered-->
+    <li>Mario</li>
+        <ol>
+            <li>Luigi</li>
+            <li>Luigi</li>
+        </ol>
+    <li>Toadstoll</li>
+</ol>
+
+<!--TABLES-->
+<table>
+    <tr>
+        <th>Company</th>
+        <th>CEO</th>
+    </tr>
+    <tr>
+        <td>Dell</td>
+        <td>Michael S. Dell</td>
+    </tr>
+    <tr>
+        <td>Apple</td>
+        <td>Tim Cook</td>
+    </tr>
+
+</table>
+
+<table>
+    <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Wednesday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <th>9:00</th>
+        <td colspan="3">Warmup</td>
+    </tr>
+    <tr>
+        <th>10:00</th>
+        <td>Drills</td>
+        <td>Skills Test</td>
+        <td rowspan="2">Scrimmage</td>
+    </tr>
+    <tr>
+        <th>11:00</th>
+        <td>Film</td>
+        <td>Weights</td>
+    </tr>
+</table>
+
+<!--IMAGES-->
+<!--Images require the source (src) and alt text (alt). 
+    You can add width and height in px to adjust the size of the picture.-->
+<img src="https://i.guim.co.uk/img/media/8bba187ffc3f02339456aa9f000289cfc115a352/90_553_2290_1373/master/2290.jpg?width=1200&quality=85&auto=format&fit=max&s=9fad671fd9a380f6b85df1083f06af4b" 
+    alt="grumpy cat" 
+    width="200" 
+    height="150">
+
+<!--LINKS-->
+
+<!--Absolute - complete URL-->
+<a href="https://www.wgu.edu" target="_blank">WGU</a>
+
+<!--Relative - using a computer path/internal-->
+<a href="file:///C:/Users/Jess/Downloads/dofus%20logo%20-%20-%20Image%20Search%20Results.png" target="_blank">Dofus</a>
+
+<!--Sending an email-->
+<a href="mailto:jmccu38@wgu.edu">Send Email</a>
+
+<!--Bookmarks-->
+<a href="#H1">Jump to Header 1</a>
+
+</body>
+</html>
